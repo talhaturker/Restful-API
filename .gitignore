@@ -1,36 +1,26 @@
+
+# Visual Studio dosyaları
+.vscode/
 .vs/
-*.obj
-*.dll
-*.exe
-*.pdb
 *.user
-*.aps
-*.pch
-*.ncb
 *.suo
-*.tlb
-*.tlh
-*.bak
-*.cache
-*.log
+*.userosscache
+*.sln.docstates
 
-
+# Build çıktı dosyaları
 bin/
 obj/
 
+# Diğer
+*.log
+*.tmp
+*.bak
+*.swp
 
+# Paket yönetimi dosyaları
+node_modules/
 packages/
-*.nupkg
-*.paket.restore.log
 
-
-_ReSharper*/
-.idea/
-
-
-.vscode/
-
-
-TestResults/
-*.trx
-*.md
+# Çıktı klasörleri
+out/
+dist/
